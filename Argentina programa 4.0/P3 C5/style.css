@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Nunito-Regular';
+    src: url('./Nunito-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Nunito-Black';
+  src: url('./Nunito-Black.ttf');
+}
+
+@font-face {
+    font-family: 'Nunito-Bold';
+    src: url('./Nunito-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Righteous';
+    src: url('./Righteous-Regular.ttf');
+}
+    
+body {
+    background-image: url(ondas.svg);
+    background-repeat: no-repeat;
+    background-size: 400vh;
+    background-color: #22193F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+div{
+    color: #fff ;
+}
+
+.textAdmin{
+    font-family: 'Righteous';
+}
+
+.loginText{
+    font-family: 'Nunito-Black';
+    font-size: 28px;
+    color: #22193F;
+    margin-left: 1vh;
+}
+
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.loginContainer a{
+    text-align: end;
+    font-family: 'Nunito-Bold';
+    color: #E21982;
+    font-size: 16px;
+}
+
+.btnIngresar{
+    font-family: 'Nunito-Bold';
+    background-color: #E21982;
+    color: #fff;
+    font-size: 16px;
+    padding: 2vh;
+    border: none;
+    border-radius: 5vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    display: flex;
+    font-family: 'Nunito-Regular';
+    font-size: 16px;
+    border: none;
+}
+
+
+i{
+    color: #6A2A83;
+}
+
+.emailCont{
+    margin-bottom: 3vh;
+}
+
+.emailCont, .passCont{
+    padding: 1vh 2vh;
+    border-radius: 3vh;
+    display: flex;
+    align-items: center;
+    border: 1px solid #C4C4C4;
+}
+
+
+
+.emailCont input, .passCont input{
+    margin-left: 1vh;
+    width: 100%;
+}
+
+.emailCont input:focus, .passCont input:focus{
+    outline: none;
+}
+
+.forgotPS{
+    text-align: end;
+}

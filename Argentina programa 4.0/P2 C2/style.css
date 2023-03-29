@@ -1,0 +1,56 @@
+body{
+    background-image: url('bg-palm.jpg');
+    background-size: cover;
+    font-family: sans-serif;
+}   
+
+.container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.nombre{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: large;
+}
+
+.linkContainer{
+    margin-top: 20px;
+}
+
+.link{
+    border: 1px solid white;
+    background-color: white;
+    padding: 15px 175px;
+    margin: 10px;
+    border-radius: 30px;}
+
+.redes{
+    margin-top: 50px;
+    display: flex;
+
+}
+
+.redes i {
+    margin: 0 40px;
+    font-size: 30px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #222;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #222;
+}
